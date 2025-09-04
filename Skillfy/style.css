@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #333333;
+}
+
+.nav-container{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+
+.navbar{
+    width: 80vw;
+    height: 15vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    font-weight: bold;
+    background-color: white;
+}
+.navbar-left{
+    display: flex;
+    width: 50vw;
+    justify-content: space-evenly;
+    align-items: center;
+    color: black;
+}
+.navbar-left img{
+    width: 7.5rem;
+    padding-bottom: 2em;
+}
+.search-navbar{
+    position: relative;
+    z-index: 1;
+}
+.search-navbar img{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 1%;
+    z-index: 1;
+}
+.search-navbar input{
+    height:3em;
+    width: 15em;
+    border-radius: 5px;
+    border: 1px solid gray ;
+    color: gray;
+    text-align: center;
+}
+
+.navbar-right{
+    display: flex;
+    width: 30vw;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.bell-icon img{
+    width: 25px;
+    height: 25px;
+}
+.profile img{ 
+    width: 35px;
+    height: 35px;    
+}
+.support img{
+    width: 35px;
+    height: 35px;
+}
+.man-icon img{
+    width: 35px;
+    height: 35px;
+}
+.left-menu{
+    display: flex;
+    align-items: center;
+}
+
+
+.section-container{
+    position: relative;
+    top: 4.4em;
+    width: 100%;
+
+}
+
+/* section first css */
+.section1{
+    width: 80vw;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    /* margin-top: 30em; */
+}
+.sec-img img{
+    width: 28em;
+}
+.sec-content{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2.5em;
+    padding-left: 5em;
+    font-size: larger;
+}
+.sec-content img{
+    width: 10em;
+}
+/* Featured courses section */
+.courses-container{
+    margin-top: 100px;
+    width: 100%;
+    height: 100%;
+    background-color:#f7f5f5;
+}
+.courses-menu{
+    width: 80vw;
+    height: 100%;
+    margin: 0 auto;
+    background-color:#f7f5f5;
+}
+.courses-menu h1{
+    font-size: 3em;
+    padding: 1em;
+    color: black;
+}
+ /* card css dobatra use ke liye */
+.course-card{
+    width: 18vw;
+    height: fit-content;
+    background-color: white;
+}
+.course-card img{
+    width: 18vw;
+}
+.card-detail{
+    display: flex;
+    justify-content: space-between;
+}
+.card-detail button{
+    background-color: rgb(87, 87, 239);
+    color: white;
+    padding: 6px;
+    border: none;
+    border-radius: 5px;
+}
+.card-menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1.5em;
+}
+.course-btn{
+   background-color: rgb(87, 87, 239);
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    margin: 3em;
+}
+
+    /* Recently added */
+.new-courses{
+    background-color: white;
+}
+.new-course-menu{
+    background-color: white;
+}
+
+/* Recently viewed courses
+almost same lagi thi */
+.extra-info{
+    width: 99vw;
+    height: 100%;
+    background-color: rgb(1, 12, 80);
+    display: flex;
+    justify-content: space-around;
+}
+.left-img img{
+    width: 30em;
+}
+.right-info{
+    width: 40vw;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 20px;
+}
+.inside-info-right {
+    color: rgb(236, 224, 224);
+}
+.Educator-info{
+    width: 99vw;
+    height: 80vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.Educator-content{
+    display: flex;
+    flex-direction: column;
+    font-size: 2em;
+    gap: 1.5em;
+    position: relative;
+    top: 3em;
+    left: 8em;
+}
+.Educator-img img{
+    height: 80vh;
+}
+.fire-img{
+    position: absolute;
+    width: 95vw;
+    bottom: 0;
+}
+.footer{
+    width: 99vw;
+    height: 45vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.left-footer{
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    gap: 2em;
+   
+}
+.right-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
