@@ -1,0 +1,837 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.web-container{
+    width: 100%;
+    height: 100%;
+}
+.navbar{
+    display: flex;
+    align-items: center;  
+    justify-content: space-between;
+    height: 60px;            
+    background: #fff;
+    /* position: fixed;
+    top: 0%; */
+}
+.navbar-left-part{
+    width: 50vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left:10px ;
+}
+.navbar-left-part img{
+    width: 40px;
+    height: 40px;
+}
+.navbar-search{
+    display: flex;
+}
+.navbar-search input{
+    border-radius: 50px;
+    border: 1px solid gray;
+    height: 40px;
+}
+.left-img{
+    width: 20px;
+    height: 20px;
+
+}
+.navbar-right-part{
+    width: 40vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right-part-content{
+    display: flex;
+}
+.right-part-content a{
+    color: black;
+    text-decoration: none;
+}
+.right-part-content input{
+        padding: 10px;
+        background-color: rgb(125, 188, 125);
+        border-radius: 10px;
+        margin-right: 10px;
+}
+.navbar2{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(40, 42, 53);
+    /* position: fixed;
+    top: 60px; */
+}
+.navbar2-content{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar2-content a{
+    display: flex;
+    justify-content: space-between; 
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding-top: 8px;
+}
+.first-frame{
+    width: 100%;
+    height: 75vh;
+    background-color: rgb(40, 42, 53) ;
+    position: relative;
+} 
+.first-frame-part1 h1{
+    position: absolute;
+    top: 17%;
+    left: 35%;
+    font-size: 4.5em;
+    color: #fff;
+    font-weight: bold;
+}
+.first-frame-part1 p{
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    font-size: 1.5em;
+    color: #fff;
+    font-weight: bold;
+    color: rgb(248, 248, 144);
+}
+.first-frame-part2 input{
+    position: absolute;
+    width: 30vw;
+    height: 7vh;
+    top: 50%;
+    left: 35%;
+    color: #fff;
+    font-weight: bold;
+    color: rgb(248, 248, 144);
+    border-radius: 25px;
+    text-align: center;
+}
+.first-frame-part3 a{
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    font-size: 1em;
+    color: #fef8f8;
+    font-weight: bold;
+}
+/* language frames */
+.frame-html{
+    width: 99vw;
+    height: 80vh;
+    background-color: rgb(231, 247, 234);
+    position: relative;
+}
+.html-part1 h1{
+    position: absolute;
+    left: 23%;
+    font-size: 6em;
+    top: 17%;
+}
+.html-part1 p{
+    position: absolute;
+    left: 20%;
+    font-size: 1.2em;
+    top: 38%;
+    font-weight: bolder;
+}
+.html-btn{
+    display:flex;
+    flex-direction: column;
+    width: 200px;
+    position: absolute;
+    left: 25%;
+    top:45%;
+    gap: 25px;
+}
+.html-btn input{
+    height: 6vh;
+    border-radius: 20px;
+    border: none;
+}
+.html-input1{
+    background-color: rgb(125, 188, 125);
+    color: white;
+    font-size: larger;
+}
+.html-input2{
+    background-color: rgb(220, 250, 163);
+    color: rgb(5, 1, 1);
+    font-size: larger;
+}
+.html-input3{
+    background-color: rgb(40, 42, 53);
+    color: rgb(250, 244, 244);
+    font-size: larger;
+}
+.html-input4{
+    background-color: rgb(77, 221, 190);
+    color: rgb(19, 9, 9);
+    font-size: larger;
+}
+.html-part2{
+    position: absolute;
+    top: 10%; /*ye work ni krra*/
+    left: 50%;
+    
+}
+
+.html-part2 img{
+    width: 450px;
+}
+
+/* CSS frame */
+
+.frame-css{
+    width: 99vw;
+    height: 80vh;
+    background-color: rgb(220, 250, 163);
+    position: relative;
+}
+.css-part1 h1{
+    position: absolute;
+    left: 25%;
+    font-size: 6em;
+    top: 17%;
+}
+.css-part1 p{
+    position: absolute;
+    left: 20%;
+    font-size: 1.2em;
+    top: 38%;
+    font-weight: bolder;
+}
+.css-btn{
+    display:flex;
+    flex-direction: column;
+    width: 200px;
+    position: absolute;
+    left: 25%;
+    top:50%;
+    gap: 25px;
+}
+.css-btn input{
+    height: 6vh;
+    border-radius: 20px;
+    border: none;
+}
+.css-input1{
+    background-color: rgb(125, 188, 125);
+    color: white;
+    font-size: larger;
+}
+.css-input2{
+    background-color: rgb(40, 42, 53);
+    color: rgb(250, 244, 244);
+    font-size: larger;
+}
+.css-input3{
+    background-color: rgb(77, 221, 190);
+    color: rgb(19, 9, 9);
+    font-size: larger;
+}
+.css-part2{
+    position: absolute;
+    top: 10%; /*ye work ni krra*/
+    left: 50%;
+    
+}
+
+.css-part2 img{
+    width: 450px;
+}
+
+/* JAVASCRIPT LANGUAGE STYLE */
+
+.frame-js{
+    width: 99vw;
+    height: 80vh;
+    background-color: rgb(40, 42, 53);
+    position: relative;
+}
+.js-part1 h1{
+    position: absolute;
+    left: 20%;
+    font-size: 5em;
+    top: 17%;
+    color: #fff;
+}
+.js-part1 p{
+    position: absolute;
+    left: 20%;
+    font-size: 1.2em;
+    top: 38%;
+    font-weight: bolder;
+    color: #fff;
+}
+.js-btn{
+    display:flex;
+    flex-direction: column;
+    width: 200px;
+    position: absolute;
+    left: 25%;
+    top:50%;
+    gap: 25px;
+}
+.js-btn input{
+    height: 6vh;
+    border-radius: 20px;
+    border: none;
+}
+.js-input1{
+    background-color: rgb(125, 188, 125);
+    color: white;
+    font-size: larger;
+}
+.js-input2{
+    background-color: rgb(235, 243, 241);
+    color: rgb(19, 14, 14);
+    font-size: larger;
+}
+.js-input3{
+    background-color: rgb(77, 221, 190);
+    color:  rgb(14, 5, 3);
+    font-size: larger;
+}
+.js-part2{
+    position: absolute;
+    top: 10%; /*ye work ni krra*/
+    left: 50%;
+    
+}
+
+.js-part2 img{
+    width: 450px;
+} 
+
+/* python language  */
+
+.frame-py{
+    width: 99vw;
+    height: 80vh;
+    background-color:   rgb(243, 236, 234);
+    position: relative;
+}
+.py-part1 h1{
+    position: absolute;
+    left: 23%;
+    font-size: 5em;
+    top: 18%;;
+    color: #150e0e;
+}
+.py-part1 p{
+    position: absolute;
+    left: 22%;
+    font-size: 1.2em;
+    top: 38%;
+    font-weight: bolder;
+    color: #130606;
+}
+.py-btn{
+    display:flex;
+    flex-direction: column;
+    width: 200px;
+    position: absolute;
+    left: 25%;
+    top:50%;
+    gap: 25px;
+}
+.py-btn input{
+    height: 6vh;
+    border-radius: 20px;
+    border: none;
+}
+.py-input1{
+    background-color: rgb(125, 188, 125);
+    color: white;
+    font-size: larger;
+}
+.py-input2{
+    background-color: rgb(20, 27, 25);
+    color: rgb(250, 244, 244);
+    font-size: larger;
+}
+.py-input3{
+    background-color: rgb(77, 221, 190);
+    color: rgb(19, 9, 9);
+    font-size: larger;
+}
+.py-part2{
+    position: absolute;
+    top: 10%; /*ye work ni krra*/
+    left: 50%;
+    
+}
+
+.py-part2 img{
+    width: 450px;
+}
+ /* SQL language style */
+
+ .frame-sql{
+    width: 99vw;
+    height: 80vh;
+    background-color:  rgb(153, 214, 214);
+    position: relative;
+}
+.sql-part1 h1{
+    position: absolute;
+    left: 26%;
+    font-size: 5em;
+    top: 20%;
+    color: #150e0e;
+}
+.sql-part1 p{
+    position: absolute;
+    left: 20%;
+    font-size: 1.2em;
+    top: 38%;
+    font-weight: bolder;
+    color: #130606;
+}
+.sql-btn{
+    display:flex;
+    flex-direction: column;
+    width: 200px;
+    position: absolute;
+    left: 25%;
+    top:50%;
+    gap: 25px;
+}
+.sql-btn input{
+    height: 6vh;
+    border-radius: 20px;
+    border: none;
+}
+.sql-input1{
+    background-color: rgb(125, 188, 125);
+    color: white;
+    font-size: larger;
+}
+.sql-input2{
+    background-color: rgb(20, 27, 25);
+    color: rgb(250, 244, 244);
+    font-size: larger;
+}
+.sql-input3{
+    background-color: rgb(77, 221, 190);
+    color: rgb(40, 42, 53);
+    font-size: larger;
+}
+.sql-part2{
+    position: absolute;
+    top: 10%; /*ye work ni krra*/
+    left: 50%;
+    
+}
+
+.sql-part2 img{
+    width: 450px;
+}
+
+/* all language section */
+.all-lag-section{
+    width: 99vw;
+    height: 100%;
+    background-color:rgb(40, 42, 53);
+}
+.lag-1{
+    width:95vw ;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.lag{
+    width: 40vw;
+    height: 35vh;
+    background-color: rgb(77, 221, 190);
+    position: relative;
+    border-radius: 10px;
+    margin-top: 80px;
+    flex-direction: column;
+}
+.lag h1{
+    position: absolute;
+    left: 40%;
+    top: 20%;
+}
+.lag p{
+    position: absolute;
+    left: 15%;
+    top: 40%;
+}
+.lag div{
+    position: absolute;
+    top: 80%;
+    left: 35%;
+}
+.lag-input{
+    padding: 10px;
+    width: 10vw;
+    border-radius: 50px;
+    background-color:rgb(40, 42, 53);
+    color: white;
+}
+#lag-jQuery{
+        background-color: rgb(220, 250, 163)
+}
+#lag-java{
+     background-color: rgb(247, 241, 240);
+}
+#lag-c{
+     background-color: rgb(218, 239, 228);
+}
+#lag-w3{
+     background-color: rgb(153, 214, 214);
+}
+#lag-bootstrap{
+     background-color: rgb(230, 233, 235);
+}
+
+/* all-lag-section */
+.lag-part1{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.lag-part2{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.lag-part3{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+/* second section */
+.lag2{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.lag2-lag{
+    width: 40vw;
+    height: 15vh;
+    background-color: rgb(77, 221, 190);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+/* card container  */
+
+.lag-card{
+    width: 95vw;
+}
+.card{
+    width: 15vw;
+    height: 15vh;
+    background-color: #fef8f8;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.card-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+}
+.courses-menu{
+    padding-top: 40px;
+}
+.light-gray{
+    background-color: RGB(214, 208, 207);
+}
+.muted-teal{
+    background-color: rgb(102, 212, 214);
+}
+.light-cream{
+    background-color: rgb(220, 250, 163)
+}
+.pink{
+    background-color: RGB(222, 168, 175);
+}
+
+/* login and sign  up */
+.login-info{
+    width: 100%;
+    background-color: rgb(217, 238, 225);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+ }
+.login-details h1{
+    font-size: 4em;
+    text-align: center;
+    padding-top: 60px;
+    font-weight: bold;
+}
+.login-img{
+
+    padding: 30px;
+    margin: 0 auto;
+
+}
+.signup-btn{
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(184, 117, 24);
+    color: white;
+}
+.code-editor{
+    width: 100%;
+    height: 100vh;
+    background-color:rgb(40, 42, 53) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.code-editor-heading{
+padding-bottom: 80px;
+color: white;
+}
+.code-editor-heading h1{
+    font-size: 4em;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bold;
+    
+}
+.code-editor-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.code-editor-btn button{
+    padding: 1em;
+    background-color: antiquewhite;
+    margin: 20px;
+}
+
+ /* <!-- Become a Plus User --> */
+.become-user{
+    background-color: rgb(40, 42, 53);
+    width: 100%;
+    height: 80vh ;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3.5em;
+}
+
+.become-user h1,p,ul{
+    font-size: 2em;
+}
+.become-user h1{
+    font-size: 3.5  em;
+}
+
+/* For-Teachers */
+.For-Teachers{
+width: 100%;
+height: 80vh;
+background-color: rgb(40, 42, 53);
+display: flex;
+justify-content: space-evenly;
+color: white;
+}
+.left-teacher{
+            color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3.5em;
+}
+.right-teacher img{
+    width: 30vw;
+}
+.color-picker{
+    width: 100%;
+    height: 40vh;
+    background-color: rgb(231, 247, 234);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    padding-top: 2em;
+}
+.code-gamer{
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(199, 228, 228);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    padding-top: 2em;
+}
+.code-gamer button{
+    padding: 1em;
+    width: 15em;
+    background-color: rgb(40, 42, 53);
+    color: white;
+    border-radius: 25px;
+    border: none;
+}
+.Quizzes{
+    width: 100%;
+    height: 60vh;
+    background-color:rgb(40, 42, 53);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    padding-top: 2em;
+    color:white;
+}
+.Quizzes-option{
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;    
+}
+.Quizzes-box{
+    height: 10em;
+    width: 35em;
+}
+ /* Web Templates */
+ .web-info{
+    background-color: #ede4e4;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 2.5em;
+ }
+.Browse-btn{
+    width: 600px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(40, 42, 53);
+    color: white;
+    font-weight: bold;
+}
+.web-template img{
+    width: 70vw;
+
+}
+/* Kickstart your career */
+.career-web{
+    background-color:  rgb(40, 42, 53) ;
+}
+.career-inside{
+    margin-left: 10em;
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    padding: 5em;
+    color: white;
+}
+.career-inside button{
+        width: 15em;
+        padding: 2em;
+        border-radius: 50px;
+        background-color: rgb(123, 229, 123);
+        border: none;
+        color: white;
+        font-size: 0.8em;
+        font-weight: bolder;
+}
+/* How To Section */
+.Code-snippets-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3em;
+    padding-bottom: 3em;
+}
+
+.Code-snippets{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+
+}
+.Code-snippets h1{
+    font-size: 3em;
+}
+.Code-snippets p{
+    font-size: 1em;
+    font-weight: bold;
+}
+
+    /* footer-content */
+
+.footer-content{
+    width: 100%;
+    background-color:  rgb(40, 42, 53);
+    padding-top: 3em;
+}
+.footer-bar{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+.footer-bar a{
+    
+    color: rgb(220, 250, 163);
+    text-decoration: none;
+}
+.footer-bar img {
+    width: 4em;
+}
+
+.footer-info{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2em;
+    color: white;
+}
+.courses-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.courses-footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: 100;
+}
+ 
+
+
+
+
+
+
+
